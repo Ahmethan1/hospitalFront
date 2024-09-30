@@ -1,0 +1,46 @@
+/* Form ile butonlar arasında boşluk */
+form {
+  margin-bottom: 100px; /* Formun alt kısmında 100px boşluk */
+}
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid black;
+  background: #28282d;
+  color: white;
+  height: 600px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+
+.login, .registerForm{
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Form elemanları arasında boşluk */
+}
+
+.login label, .registerForm label {
+  font-size: 24px;
+}
+
+.login input, .registerForm input {
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.loginButtonDiv {
+  margin-top: 30px;
+}
+.girisP {
+  cursor: pointer;
+  padding: 3px;
+}
+.girisP:hover {
+  padding: 2px;
+  border: 1px solid lightblue;
+}

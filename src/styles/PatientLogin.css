@@ -1,0 +1,35 @@
+.patientInfo {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+.appointmentDiv {
+  min-width: 700px;
+}
+
+.appointmentButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.appointmentAdd {
+  background-color: lightgreen;
+}
+.appointmentEdit {
+  background-color: orange;
+}
+.appointmentRemove {
+  background-color: red;
+}
+.patientEditDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+tr {
+  transition: 0.5s ease;
+}
+tr:hover {
+  background-color: aquamarine;
+}

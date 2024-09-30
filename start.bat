@@ -1,0 +1,1 @@
+start cmd.exe @cmd /k "cd C:\Users\Ahmethan\Desktop\frontendHospital\&npm run dev"

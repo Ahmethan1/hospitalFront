@@ -1,0 +1,16 @@
+.doctorInfo {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+tr td {
+  padding: 40px 50px;
+}
+table {
+  border: 1px solid lawngreen;
+}
+tr th {
+  padding: 40px 50px;
+}
